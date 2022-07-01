@@ -1,0 +1,100 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .main-box {
+  font-family: sans-serif;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.3), 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 25px;
+}
+.container .main-box .task-list {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+}
+.container .main-box .task-list button {
+  background-color: rgb(0, 136, 113);
+}
+.container .main-box .tasks {
+  margin-top: 40px;
+}
+.container .main-box .tasks ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  color: white;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.3), 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.container .main-box .tasks ul li {
+  background-color: rgb(0, 136, 113);
+  padding: 15px 0 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.container .main-box .tasks ul li:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+.container .main-box .tasks ul li .task-text {
+  cursor: default;
+}
+.container .main-box .tasks ul li .cross {
+  margin-right: 15px;
+  font-size: 13px;
+  color: orange;
+}
+.container .main-box .tasks ul .completed > .task-text {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-decoration-thickness: 3px;
+}
+.container .main-box .tasks button {
+  background-color: black;
+}
+.container .main-box h1 {
+  margin-top: 0;
+  font-weight: normal;
+}
+.container .main-box form {
+  margin-bottom: 20px;
+}
+.container .main-box form input[type=text] {
+  border: none;
+  border-bottom: 3px solid #eee;
+  width: 100%;
+  padding: 10px 0;
+}
+.container .main-box form input[type=text]::-moz-placeholder {
+  color: #777;
+}
+.container .main-box form input[type=text]:-ms-input-placeholder {
+  color: #777;
+}
+.container .main-box form input[type=text]::placeholder {
+  color: #777;
+}
+.container .main-box form input[type=text]:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(0, 136, 113);
+}
+.container .main-box form input[type=text]:focus::-moz-placeholder {
+  opacity: 0;
+}
+.container .main-box form input[type=text]:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+.container .main-box form input[type=text]:focus::placeholder {
+  opacity: 0;
+}
+.container .main-box button {
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.3), 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
